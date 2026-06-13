@@ -139,8 +139,19 @@
       <h2>Get Free Tech Learning Updates</h2>
       <p>Join our student community and receive beginner-friendly guides.</p>
 
-      <form onsubmit="subscribeUser(event)">
-        <input type="email" id="emailInput" placeholder="Enter your email" required />
+      <form action="https://formsubmit.co/oshadhaperera500@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="New learning updates subscriber - StudentTechLK" />
+        <input type="hidden" name="_template" value="table" />
+        <input type="hidden" name="_captcha" value="false" />
+
+        <input
+          type="email"
+          name="Subscriber Email"
+          id="emailInput"
+          placeholder="Enter your email"
+          required
+        />
+
         <button type="submit">Subscribe</button>
       </form>
     </div>
