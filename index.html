@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>StudentTechLK - Learn Tech & Build Your Future</title>
+  <meta name="description" content="StudentTechLK helps students learn Cloud Computing, AI Tools, Data Science and technology skills." />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container nav-container">
+
+      <div class="logo">Student<span>TechLK</span></div>
+
+      <nav id="navMenu">
+        <a href="index.html">Home</a>
+        <a href="cloud-computing.html">Cloud</a>
+        <a href="ai-tools.html">AI Tools</a>
+        <a href="data-science.html">Data Science</a>
+        <a href="#">Guides</a>
+        <a href="#">Contact</a>
+      </nav>
+
+      <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-content">
+
+      <div class="hero-text">
+
+        <p class="tagline">For IT Students & Beginners</p>
+
+        <h1>Learn Cloud, AI and Data Science with Simple Guides</h1>
+
+        <p class="hero-desc">
+          StudentTechLK helps beginners learn modern technology, build skills,
+          create projects and prepare for tech careers.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="cloud-computing.html" class="btn primary">Start Learning</a>
+          <a href="#articles" class="btn secondary">View Articles</a>
+        </div>
+
+      </div>
+
+      <div class="hero-card">
+        <h3>Today’s Learning Path</h3>
+
+        <ul>
+          <li>✅ Cloud Computing Basics</li>
+          <li>✅ Free AI Tools</li>
+          <li>✅ Python Projects</li>
+          <li>✅ Data Science Basics</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section class="categories">
+    <div class="container">
+
+      <h2>Explore Topics</h2>
+
+      <p class="section-text">
+        Choose a topic and start learning step by step.
+      </p>
+
+      <div class="category-grid">
+
+        <div class="category-card">
+          <h3>☁️ Cloud Computing</h3>
+          <p>Learn AWS, Azure, servers, hosting and cloud basics.</p>
+        </div>
+
+        <div class="category-card">
+          <h3>🤖 AI Tools</h3>
+          <p>Discover useful AI tools for students and beginners.</p>
+        </div>
+
+        <div class="category-card">
+          <h3>📊 Data Science</h3>
+          <p>Learn Python, data analysis, dashboards and projects.</p>
+        </div>
+
+        <div class="category-card">
+          <h3>🎓 Student Guides</h3>
+          <p>Study tips, free courses, career paths and portfolio ideas.</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Articles -->
+  <section class="articles" id="articles">
+    <div class="container">
+
+      <h2>Latest Articles</h2>
+
+      <p class="section-text">
+        Fresh beginner-friendly tech guides.
+      </p>
+
+      <div class="article-grid">
+
+        <article class="article-card">
+          <div class="article-label">Cloud</div>
+
+          <h3>What is Cloud Computing?</h3>
+          <p>Understand cloud computing in simple words with real examples.</p>
+
+          <a href="cloud-computing.html">Read More →</a>
+        </article>
+
+        <article class="article-card">
+          <div class="article-label">AI</div>
+
+          <h3>Best Free AI Tools for Students</h3>
+          <p>Useful AI tools for assignments, writing and learning.</p>
+
+          <a href="ai-tools.html">Read More →</a>
+        </article>
+
+        <article class="article-card">
+          <div class="article-label">Data</div>
+
+          <h3>Data Science Beginner Guide</h3>
+          <p>Learn Python, data analysis and simple project ideas.</p>
+
+          <a href="data-science.html">Read More →</a>
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="newsletter">
+    <div class="container newsletter-box">
+
+      <h2>Get Free Tech Learning Updates</h2>
+
+      <p>Join our student community and receive beginner-friendly guides.</p>
+
+      <form onsubmit="subscribeUser(event)">
+        <input type="email" id="emailInput" placeholder="Enter your email" required />
+        <button type="submit">Subscribe</button>
+      </form>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+
+      <div>
+        <h3>StudentTechLK</h3>
+        <p>Helping students learn technology and build future-ready skills.</p>
+      </div>
+
+      <div>
+        <h4>Topics</h4>
+        <a href="cloud-computing.html">Cloud Computing</a>
+        <a href="ai-tools.html">AI Tools</a>
+        <a href="data-science.html">Data Science</a>
+      </div>
+
+      <div>
+        <h4>Useful Links</h4>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+
+    </div>
+
+    <p class="copyright">
+      © 2026 StudentTechLK. All rights reserved.
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
